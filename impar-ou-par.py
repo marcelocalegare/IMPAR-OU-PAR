@@ -10,7 +10,7 @@ n = int(input('Digite um numero de 0 a 10: '))
 
 computador = randint(0, 10)
 
-print(f'O Jogador escolheu {n} e a Maquina escolheu {pc} a soma é {n+computador} ')
+print(f'O Jogador escolheu {n} e a Maquina escolheu {computador} a soma é {n+computador} ')
 
 if opc == 1:
     if (n + computador) % 2 == 0:
